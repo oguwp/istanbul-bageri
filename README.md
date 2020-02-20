@@ -1,4 +1,4 @@
-# istanbul-bageri
+# Istanbul Bageri
 - HTML
 - CSS
 - JS
