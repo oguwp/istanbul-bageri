@@ -21,7 +21,7 @@
 <img src="https://i.gyazo.com/50db153438bd3f349576d0b18e288bb9.jpg" alt=""/>
 <img src="https://i.gyazo.com/c2e0e3c8b84d7f3c1ca40d5190fe660c.jpg" alt=""/>
 
-# OM Istanbul Bageri
+# Om Istanbul Bageri
 Istanbul Bageri er en af de helt gamle forretninger i Bazar Vest. Bageriet åbnede allerede i 1997 i den oprindelige bazar, og flyttede i 2003 ind i et stort bageri den nye afdeling.
 
 I dag er der to medejere af bageriet: Okan Kevioglu og Cihangir Kilic. Kilic blev medejer i foråret 2010, efter at havde været medarbejder i bageriet i mange år.
