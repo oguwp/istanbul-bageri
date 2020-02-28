@@ -10,6 +10,10 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    background: #202024;
+}
+
 #myVideo {
     position: absolute;
     right: 0;
@@ -43,7 +47,7 @@ html {
 @media screen and (max-width: 768px) {
 
     .hide1 {
-        display: none;
+        display: none !important;
     }
 
     .flex-container {
@@ -53,11 +57,24 @@ html {
     .grid-container {
         display: block !important;
     }
+
+    .text23 {
+        display: block;
+        width: 290px !important;
+        font-size: 13px;
+        text-align: left;
+    }
+
 }
 
-
-body {
-    background: #202024;
+.text23 {
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    width: 700px;
+    font-size: 17px;
+    margin-left: 4%;
+    line-height: 2;
 }
 
 /* Type */
@@ -492,7 +509,7 @@ ul.icons li a:before {
 
 ul.icons li a:hover {
     background-color: #202024;
-    color: #FFF;
+    color: #825C37;
 }
 
 ul.icons li:last-child {
@@ -512,7 +529,7 @@ input[type="button"],
 button,
 .button {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    background-color: #3252c9;
+    background-color: rgba(186, 128, 68, 0.65);
     border-radius: 4px;
     border: 0;
     color: #ffffff !important;
@@ -533,7 +550,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-    background-color: #3458e0;
+    background-color: rgba(186, 128, 68, 1) !important;
 }
 
 input[type="submit"]:active,
@@ -541,7 +558,7 @@ input[type="reset"]:active,
 input[type="button"]:active,
 button:active,
 .button:active {
-    background-color: #5ec0b6;
+    background-color: rgba(186, 128, 68, 1) !important;
 }
 
 input[type="submit"].icon,
@@ -594,22 +611,6 @@ button.big,
     opacity: 0.25;
 }
 
-.button.style2 {
-    background-color: #7f92cf;
-}
-
-.button.style2:hover {
-    background-color: #92a2d6;
-}
-
-.button.style2:active {
-    background-color: #6c82c8;
-}
-
-.button.style3 {
-    background-color: #9d7ed0;
-}
-
 input[type="submit"].style3:hover,
 input[type="reset"].style3:hover,
 input[type="button"].style3:hover,
@@ -629,7 +630,7 @@ button.style3:active,
 
 .button11 {
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    background-color: #3252c9;
+    background-color: rgba(186, 128, 68, 0.75) !important;
     border-radius: 4px;
     border: 0;
     color: #ffffff !important;
@@ -646,7 +647,7 @@ button.style3:active,
 }
 
 .button11:hover {
-    background-color: #3458e0;
+    background-color: rgba(186, 128, 68, 1) !important;
 }
 
 .button11:active {
@@ -660,9 +661,6 @@ button.style3:active,
 .button11.icon:before {
     margin-right: 0.5em;
 }
-
-
-
 
 @media screen and (max-width: 480px) {
 
@@ -1224,7 +1222,7 @@ body.is-loading #banner:before {
     padding: 5px 20px 0px 25px;
     color: white;
     margin: auto;
-
+    text-align: left;
 }
 
 .modal-content1 {

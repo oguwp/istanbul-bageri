@@ -53,7 +53,7 @@
     </div>
 
     <main>
-        <p class="h22" id="jump1">BESTSELLERS</p>
+        <h2 class="h22" id="jump1">BESTSELLERS</h2>
         <br>
         <section>
             <div class="flex-container">
@@ -145,12 +145,12 @@
         </div>
     </section>
 
-    <p class="h22" id="jump2">OPSKRIFTER</p>
+    <h2 class="h22" id="jump2">OPSKRIFTER</h2>
     <br>
     <br>
 
     <!-- Content Boxes -->
-    <div>
+    <div id="main">
         <div class="inner">
             <!-- Boxes -->
             <div class="thumbnails">
@@ -177,7 +177,7 @@
                             <img src="./images/tapas1.jpg" class="image-modal" alt="Tapas" />
                             <img src="./images/tapas2.jpg" class="image-modal" alt="Tapas" />
                             <div class="flex-container">
-                                <div class="flex-item flex-item-2">
+                                <div class="flex-item flex-item-1">
                                     <p>Tapas med røget makrel og pikant ost</p>
                                     <ul style="text-align: left;">
                                         <li>8 skiver rugbrød, ristet og evt. udstukket i fin form</li>
@@ -301,35 +301,33 @@
         </div>
     </section>
 
-    <p class="h22">OM OS</p>
+    <h2 class="h22">OM OS</h2>
 
-    <section class="hide1">
-        <div class="flex-container hide1">
-            <div class="flex-item flex-item-4">
+    <section>
+        <div class="flex-container">
+            <div class="flex-item flex-item-1">
                 <h3 class="text1 align-center">ISTANBUL BAGERI</h3>
-                <p style="display: inline-block; width: 700px; font-size: 16px; margin-left: 5%; line-height: 2;">Friskbagt tyrkisk brød hver eneste dag og vinder af Pølsehornsprisen 2019. Der er vidst ingen tvivl om Okan Kevioglu &amp; Hakki Kilic har etableret sig et velfungerende bageri med yderst smagfulde produkter. Istanbul bageri åbnede sammen med Bazar Vest i 1997, hvilket gør dem til en af de første og ældste butikker i bazaren. De har siden fyldt sultne maver med tyrkiske specialiteter og gør sit for, at der altid ligger friskbagt brød på hylderne. Derfor bages der jævnligt i løbet af dagen og altid kun efter behov så også madspil undgås.. </p>
+                <p class="text23">Friskbagt tyrkisk brød hver eneste dag og vinder af Pølsehornsprisen 2019. Der er vidst ingen tvivl om Okan Kevioglu &amp; Hakki Kilic har etableret sig et velfungerende bageri med yderst smagfulde produkter. Istanbul bageri åbnede sammen med Bazar Vest i 1997, hvilket gør dem til en af de første og ældste butikker i bazaren. De har siden fyldt sultne maver med tyrkiske specialiteter og gør sit for, at der altid ligger friskbagt brød på hylderne. Derfor bages der jævnligt i løbet af dagen og altid kun efter behov så også madspil undgås.. </p>
             </div>
-            <div class="flex-item flex-item-4"><img src="images/ansigt.jpg" class="img22 fit11" alt="Hakki Kilic" />
+            <div class="flex-item flex-item-2"><img src="images/ansigt.jpg" class="img22 fit11" alt="Hakki Kilic" />
             </div>
         </div>
     </section>
 
-    <section id="banner3">
+    <section id="banner3" class="hide1">
         <div class="inner">
-            <h2>OPLEVELSEN</h2>
+            <h2 class="hide1">OPLEVELSEN</h2>
         </div>
     </section>
+    
+    <h2 class="h22 hide1">VIDEOER</h2>
 
     <div class="flex-container" style="width: 1400px">
-        <div class="flex-item flex-item-4 hide1">
-            <video class="afterglow" id="myvideo" width="532" height="354" poster="./images/hero3.png">
-                <source type="video/mp4" src="./images/banner.mp4">
-            </video>
+       <div class="flex-item flex-item-1 hide1">
+        <iframe src="https://player.vimeo.com/video/394417978?color=815D38&title=0&byline=0&portrait=0" width="632" height="354" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <div class="flex-item flex-item-4 hide1">
-            <video class="afterglow" id="myvideo" width="532" height="354" poster="./images/hero4.png">
-                <source type="video/mp4" src="./images/banner2.mp4"/>
-            </video>
+        <div class="flex-item flex-item-2 hide1">
+            <iframe class="afterglow" src="https://player.vimeo.com/video/394418006?color=815D38&title=0&byline=0&portrait=0" width="632" height="354" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
     </div>
 
@@ -354,7 +352,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <span class="close">×</span>
-                            <h2 style="color: white; text-align: center; font-size: 35px;">Edwin Rahrs Vej 32, 8220 Brabrand</h2>
+                            <h2 style="color: white; text-align: center; font-size: 35px;">Adresse</h2>
                         </div>
                         <div class="modal-body">
                             <div class="resp-container">
@@ -392,7 +390,6 @@
     <script src="./js/script.js"></script>
     <script src="./js/modal.js"></script>
     <script src="./js/smooth.js"></script>
-    <script src="./js/afterglow.min.js"></script>
     <script src="https://kit.fontawesome.com/01e0a0f5d5.js"></script>
 
 </body></html>
